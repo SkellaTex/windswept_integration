@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "entries": [
+    "windswept_integration:log_cabin_dropper_environmental",
+    "windswept_integration:log_cabin_dropper_windswept",
+    "windswept_integration:log_cabin_junk_environmental",
+    "windswept_integration:log_cabin_junk_windswept",
+    "windswept_integration:pinecone_golem_environmental",
+    "windswept_integration:pinecone_golem_windswept"
+  ]
+}

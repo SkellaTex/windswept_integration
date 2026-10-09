@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "ecologics",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "windswept_integration:config",
+        "value": "ecologics_snow_bricks"
+      }
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ecologics:snow_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "ecologics:snow_brick_stairs"
+  }
+}

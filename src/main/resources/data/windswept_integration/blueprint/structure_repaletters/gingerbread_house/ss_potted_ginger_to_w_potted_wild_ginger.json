@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "snowyspirit"
+    }
+  ],
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "snowyspirit:potted_ginger",
+    "replaces_with": "windswept:potted_wild_ginger"
+  },
+  "structures": "snowyspirit:gingerbread_house"
+}

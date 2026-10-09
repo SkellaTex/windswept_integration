@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "yungscavebiomes",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "windswept_integration:config",
+      "value": "frosted_caves_chilled"
+    }
+  ],
+  "type": "neoforge:remove_spawns",
+  "biomes": "yungscavebiomes:frosted_caves",
+  "entity_types": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton"]
+}

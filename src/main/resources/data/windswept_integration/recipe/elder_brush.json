@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "windswept_integration:config",
+      "value": "elder_brush"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "windswept:elder_feather"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "W",
+    "I",
+    "N"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windswept_integration:elder_brush"
+  }
+}

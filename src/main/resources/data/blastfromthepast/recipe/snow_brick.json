@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "blastfromthepast",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "windswept_integration:config",
+        "value": "bftp_snow_bricks"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:snow"
+    }
+  },
+  "result": {
+    "id": "blastfromthepast:snow_brick",
+    "count": 1
+  }
+}

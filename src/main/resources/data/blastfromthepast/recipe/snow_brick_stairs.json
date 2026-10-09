@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "blastfromthepast",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "windswept_integration:config",
+        "value": "bftp_snow_bricks"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "blastfromthepast:snow_brick"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "blastfromthepast:snow_brick_stairs"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "environmental",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "windswept_integration:config",
+        "value": "environmental_pine"
+      }
+    }
+  ],
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "environmental:pine_sapling"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "environmental:entities/pinecone_golem"
+}

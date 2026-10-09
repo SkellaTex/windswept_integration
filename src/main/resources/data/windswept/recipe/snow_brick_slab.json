@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "windswept_integration:config",
+      "value": "snow_bricks"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "windswept:snow_bricks"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "windswept:snow_brick_slab"
+  }
+}

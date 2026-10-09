@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "snowyspirit"
+    }
+  ],
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "minecraft:dark_oak_slab",
+    "replaces_with": "windswept:glazed_gingerbread_brick_slab"
+  },
+  "structures": "snowyspirit:gingerbread_house"
+}

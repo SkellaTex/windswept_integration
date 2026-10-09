@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "environmental"
+    },
+    {
+      "type": "windswept_integration:config",
+      "value": "environmental_pine"
+    }
+  ],
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "environmental:pine_trapdoor",
+    "replaces_with": "windswept:pine_trapdoor"
+  },
+  "structures": "environmental:log_cabin"
+}

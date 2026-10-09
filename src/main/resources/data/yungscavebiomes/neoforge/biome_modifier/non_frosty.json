@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "yungscavebiomes",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "windswept_integration:config",
+      "value": "non_frosty_mobs"
+    }
+  ],
+  "type": "neoforge:remove_spawns",
+  "biomes": "yungscavebiomes:frosted_caves",
+  "entity_types": ["minecraft:bat", "minecraft:creeper", "minecraft:spider"]
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "windswept_integration:config",
+      "value": "snow_bricks"
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "windswept:snow_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "windswept:snow_brick_wall"
+  }
+}

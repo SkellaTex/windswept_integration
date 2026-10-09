@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "windswept_integration:config",
+      "value": "lavender_dye_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "windswept:lavender"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:magenta_dye"
+  }
+}

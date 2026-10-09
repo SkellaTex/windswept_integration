@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "windswept:white_rose_bush"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 3,
+      "id": "minecraft:white_dye"
+    },
+    {
+      "chance": 0.05,
+      "count": 2,
+      "id": "minecraft:green_dye"
+    },
+    {
+      "chance": 0.25,
+      "count": 2,
+      "id": "minecraft:white_dye"
+    }
+  ]
+}

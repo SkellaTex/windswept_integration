@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "blastfromthepast",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "windswept_integration:config",
+      "value": "chilly_moss_carpet"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "carpet",
+  "key": {
+    "#": {
+      "item": "blastfromthepast:chilly_moss"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "windswept_integration:chilly_moss_carpet"
+  }
+}

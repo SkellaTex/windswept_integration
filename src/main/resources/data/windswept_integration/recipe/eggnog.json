@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "snowyspirit"
+    },
+    {
+      "type": "snowyspirit:flag",
+      "flag": "eggnog"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "windswept:ginger_root"
+    },
+    {
+      "tag": "c:buckets/milk"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "snowyspirit:eggnog",
+    "count": 1
+  }
+}

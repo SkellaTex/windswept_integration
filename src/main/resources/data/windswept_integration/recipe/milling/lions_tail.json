@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "windswept:lions_tail"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 3,
+      "id": "minecraft:orange_dye"
+    },
+    {
+      "chance": 0.25,
+      "id": "minecraft:red_dye"
+    },
+    {
+      "chance": 0.25,
+      "id": "minecraft:orange_dye"
+    }
+  ]
+}

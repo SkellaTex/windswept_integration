@@ -1,0 +1,46 @@
+{
+  "levels": [
+    "minecraft:overworld"
+  ],
+  "provider": {
+    "type": "blueprint:multi_noise",
+    "areas": {
+      "environmental:old_growth_pine_barrens_area": "environmental:old_growth_pine_barrens",
+      "environmental:pine_barrens_area": "environmental:pine_barrens",
+      "environmental:pine_slopes_area": "environmental:pine_slopes",
+      "environmental:snowy_old_growth_pine_barrens_area": "environmental:snowy_old_growth_pine_barrens",
+      "environmental:snowy_pine_barrens_area": "environmental:snowy_pine_barrens"
+    },
+    "biomes": [
+      {
+        "biome": "blueprint:original_source_marker",
+        "parameters": {
+          "continentalness": [
+            -1.2,
+            -1.05
+          ],
+          "depth": 0.0,
+          "erosion": [
+            -1.0,
+            1.0
+          ],
+          "humidity": [
+            -1.0,
+            1.0
+          ],
+          "offset": 0.0,
+          "temperature": [
+            -1.0,
+            1.0
+          ],
+          "weirdness": [
+            -1.0,
+            1.0
+          ]
+        }
+      }
+    ],
+    "only_map_from_areas": true
+  },
+  "weight": 0
+}

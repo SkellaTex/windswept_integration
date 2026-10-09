@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "environmental",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "windswept_integration:config",
+        "value": "environmental_pine"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "environmental:pinecone"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "environmental:waxed_pinecone"
+  }
+}

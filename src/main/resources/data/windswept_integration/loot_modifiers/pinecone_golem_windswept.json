@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "environmental:entities/pinecone_golem"
+    }
+  ],
+  "table": "windswept_integration:entities/pinecone_golem_windswept"
+}

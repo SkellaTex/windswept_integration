@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "environmental:chests/log_cabin_dropper"
+    }
+  ],
+  "table": "windswept_integration:chests/log_cabin_dropper_windswept"
+}
